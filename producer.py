@@ -23,5 +23,3 @@ while True:
     producer.send('tweets', tweet)
     print(f"Sent: {tweet}")
     time.sleep(1)
-
-
