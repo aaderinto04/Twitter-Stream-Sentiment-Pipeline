@@ -4,7 +4,6 @@ from elasticsearch import Elasticsearch
 from datetime import datetime, timezone
 import json
 
-# ✅ Pass headers directly to Elasticsearch (supported in 8.13.2)
 es = Elasticsearch(
     ["http://localhost:9200"],
     headers={
